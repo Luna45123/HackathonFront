@@ -1,0 +1,30 @@
+/* Footer */
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.services,
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+}
+
+.services h3,
+.contact h3 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact p,
+.services p {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.footer {
+    width: 100%;
+}
